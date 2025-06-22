@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Open SansRegular';
+	src: local('Open Sans'),
+		url('../fonts/ofont.ru_Open SansRegular.woff2') format('woff2'),
+		url('../fonts/ofont.ru_Open-SansRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open SansSemibold';
+	src: local('Open Sans'),
+		url('../fonts/ofont.ru_Open SansSemibold.woff2') format('woff2'),
+		url('../fonts/ofont.ru_Open-SansSemibold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open SansLight';
+	src: local('Open Sans'),
+		url('../fonts/ofont.ru_Open SansLight.woff2') format('woff2'),
+		url('../fonts/ofont.ru_Open SansLight.woff') format('woff');
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
