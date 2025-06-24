@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Open SansRegular';
+	font-family: 'Open Sans';
 	src: local('Open Sans'),
 		url('../fonts/ofont.ru_Open SansRegular.woff2') format('woff2'),
 		url('../fonts/ofont.ru_Open-SansRegular.woff') format('woff');
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: 'Open SansSemibold';
+	font-family: 'Open Sans';
 	src: local('Open Sans'),
 		url('../fonts/ofont.ru_Open SansSemibold.woff2') format('woff2'),
 		url('../fonts/ofont.ru_Open-SansSemibold.woff') format('woff');
@@ -19,11 +19,58 @@
 }
 
 @font-face {
-	font-family: 'Open SansLight';
+	font-family: 'Open Sans';
 	src: local('Open Sans'),
 		url('../fonts/ofont.ru_Open SansLight.woff2') format('woff2'),
 		url('../fonts/ofont.ru_Open SansLight.woff') format('woff');
 	font-display: swap;
 	font-weight: 300;
 	font-style: normal;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul, ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: #3172B9;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
 }
